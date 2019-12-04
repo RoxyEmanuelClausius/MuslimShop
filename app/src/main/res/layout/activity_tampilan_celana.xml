@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tampilan_celana">
+    <LinearLayout
+
+        android:id="@+id/linearLayout"
+        android:layout_width="410dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="661dp"
+        android:background="#00D1C3"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+
+            app:srcCompat="@drawable/ic_format_list_bulleted_black_24dp" />
+
+        <TextView
+            android:id="@+id/muslim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text="Muslim Shop"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TV_celana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lingkaran"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Celana"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <TextView
+        android:id="@+id/TV_Baju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="176dp"
+        android:background="@drawable/lingkaran"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Baju"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <TextView
+        android:id="@+id/TV_lain-lain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lingkaran"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Lain-Lain"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="87dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/pencarian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#34000000"
+        android:ems="10"
+        android:hint="pencarian"
+        android:inputType="textEmailAddress"
+        android:textColor="#DBDBDB"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <LinearLayout
+        android:layout_width="145dp"
+        android:layout_height="168dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="460dp">
+
+
+        <ImageView
+            android:id="@+id/tv_celana4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/celana4" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TV_celana2"
+        android:layout_width="149dp"
+        android:layout_height="26dp"
+        android:text="Celana Sirval Hitam"
+        android:textSize="15dp"
+        android:textStyle="normal|bold|italic"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <TextView
+        android:id="@+id/TV_hargacln2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp 79.000"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="393dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/TV_celana3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celana Hitam Polos   "
+        android:textSize="15dp"
+        android:textStyle="normal|bold|italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <TextView
+        android:id="@+id/TV_hargaclna3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RP 55.000"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="393dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/TV_celana4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celana Sirval coklat"
+        android:textSize="15dp"
+        android:textStyle="normal|bold|italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="643dp" />
+
+    <TextView
+        android:id="@+id/TV_hargaclna4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp 59.000"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="670dp" />
+
+    <LinearLayout
+        android:layout_width="169dp"
+        android:layout_height="165dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="459dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/TV_celana11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/celana1"
+            android:contentDescription="TODO"
+            tools:ignore="DuplicateIds" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TV_celana1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celana Sirval Cream"
+        android:textSize="20dp"
+        android:textStyle="normal|bold|italic"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="636dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/TV_hargacln1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp 120.000"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="670dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/TV_celana2"
+        android:layout_width="182dp"
+        android:layout_height="146dp"
+        app:srcCompat="@drawable/celana2"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="200dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/TV_celana3"
+        android:layout_width="169dp"
+        android:layout_height="142dp"
+        app:srcCompat="@drawable/celana3"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="200dp"
+        tools:ignore="DuplicateIds,MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
